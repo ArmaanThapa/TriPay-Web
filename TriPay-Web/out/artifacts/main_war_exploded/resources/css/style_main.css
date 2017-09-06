@@ -1,0 +1,387 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+.navbar-header{
+    margin-left: 50px !important;
+    margin-top: -11px !important;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    /* background-image:url('../images/slider_0.jpg');*/
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media all and (max-width: 1200px) {
+    #mainbox{
+        padding-top: 10px;
+    }
+
+}
+@media all and (max-width: 357px) {
+    #header{
+        height: 250px;
+    }
+    #signup{
+        margin-bottom: 150px !important;
+    }
+}
+@media all and (max-width: 960px) {
+    #mainbox{
+        padding-top: 60px;
+    }
+}
+@media all and (max-width: 990px) {
+    .navbar-right{
+        margin-top: -40px !important;
+    }
+    .navbar-brand{
+        position:relative;
+        margin-right:50px
+    }
+}
+@media all and (max-width: 950px) {
+    .navbar-right{
+        margin-top: 30px !important;
+    }
+}
+@media all and (max-width: 768px) {
+    #mainbox{
+        padding-top: 10px;
+    }
+    .navbar-nav {
+        width: 100%;
+        align-items: center;
+    }
+    #footer{
+        position: relative;
+    }
+}
+@media all and (max-width: 478px) {
+    .navbar-brand img{
+        margin-left: -50px
+    }
+}
+.pull-right p{
+    font-size:10px;
+}
+.topline{
+    height: 6px;
+    background: #17bcc8;
+}
+.navbar-brand{
+    margin-top: 8px;
+}
+#footer {
+    min-height: 30px;
+    bottom: 0;
+    width: 100%;
+// Set the fixed height of the footer here
+height: 5%;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 8px;
+
+}
+
+
+#footer a{
+    padding-right: 8px;
+    padding-left: 8px;
+    color: #000000;
+    border-right:#e6e6e6 solid 1.5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+}
+#mycarousel{
+    margin-top: -20px;
+    position:absolute;
+    z-index: -999;
+}
+#mycarousel p{
+    font-size:15px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+/* radio========================*/
+.radio{
+    width: 40px;
+}
+.label {
+    float: right;
+}
+/*--------------------------------------form------------------------------------------------*/
+.navbar-right{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#login a{
+    font-size:11px;
+}
+#login .group 			  {
+    position:relative;
+    margin-top: 5px;
+    float:left;
+    margin-left: 30px;
+}
+#login input 				{
+    font-size:14px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:200px;
+    border:none;
+    border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+#login .label 				 {
+    color:#999;
+    font-size:14px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:5px;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+    font-family: 'Ubuntu', sans-serif;
+    float:left;
+}
+
+/* active state */
+#login .input:focus ~ label, input:valid ~ label 		{
+    top:-10px;
+    font-size:14px;
+    color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+#login .bar 	{ position:relative; display:block; width:200px;}
+.bar:before, .bar:after 	{
+    content:'';
+    height:1px;
+    width:0;
+    bottom:1px;
+    position:absolute;
+    background:#5264AE;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+}
+.bar:before {
+    left:50%;
+}
+.bar:after {
+    right:50%;
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position:absolute;
+    height:60%;
+    width:100px;
+    top:25%;
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}
+
+/*-----------------signup---------------------------*/
+
+#strength_password{
+    width: 85%;
+    z-index: 2;
+    font-size: 8pt;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+#signup .group 			  {
+    position:relative;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+input 				{
+    font-size:10px;
+    padding:5px 0px 8px 10px;
+    display:block;
+    width:90%;
+    border:none;
+    border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+    color:#999;
+    font-size:14px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:5px;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+    top:-10px;
+    font-size:14px;
+    color:#17bcc8;
+}
+
+
+/* forgotPassword================================*/
+.modal-content{
+    border-radius: 0;
+    margin-top: 40%;
+
+
+}
+.icon{
+    background: #5AB1D0;
+    height: 50px;
+    width: 50px;
+    z-index:99;
+    margin-left:8%;
+}
+.modal-content h4{
+    margin-top: -30px;
+    margin-left: 55px;
+}
+.icon .fa{
+    padding:15px;
+    color: white;
+
+}
+.close{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#fp_submit
+{
+    margin-bottom: 5px; border-radius: 0; background: red; color: white; margin-bottom: 15px;"
+}
+
+.btn{
+    background: red;
+    color: white;
+    margin-left: 10px;
+    margin-right: -10px;
+
+
+
+}
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:90%;}
+.bar:before, .bar:after 	{
+    content:'';
+    height:1px;
+    width:0;
+    bottom:1px;
+    position:absolute;
+    background:#5264AE;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+}
+.bar:before {
+    left:50%;
+}
+.bar:after {
+    right:50%;
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position:absolute;
+    height:60%;
+    width:100px;
+    top:25%;
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}
+

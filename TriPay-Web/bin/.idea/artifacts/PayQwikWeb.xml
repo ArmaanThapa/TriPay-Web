@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PayQwikWeb">
+    <output-path>$PROJECT_DIR$/out/artifacts/PayQwikWeb</output-path>
+    <root id="archive" name="PayQwikWeb.war">
+      <element id="javaee-facet-resources" facet="PayQwik/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="PayQwik/web/Web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

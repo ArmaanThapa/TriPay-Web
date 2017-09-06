@@ -1,0 +1,2730 @@
+{
+  "InternationalFlights": [],
+  "DomesticOnwardFlights": [
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 1599,
+          "Tax": 878,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 1599,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 2477
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "DH8",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T07:20:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T05:55:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:25 hrs",
+          "FlightNumber": "3706",
+          "OperatingAirlineCode": "SG",
+          "OperatingAirlineFlightNumber": "3706",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "SpiceJet",
+          "AirportTax": "0",
+          "ImageFileName": "SG",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "1599",
+            "Bookingclass": null,
+            "ClassType": "CCHBOHO",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "11",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 5099,
+          "Tax": 1098,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 5099,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 6197
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "DH8",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T15:30:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T14:10:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:20 hrs",
+          "FlightNumber": "1016",
+          "OperatingAirlineCode": "SG",
+          "OperatingAirlineFlightNumber": "1016",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "SpiceJet",
+          "AirportTax": "0",
+          "ImageFileName": "SG",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "5099",
+            "Bookingclass": null,
+            "ClassType": "LLHBOHO",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "12",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 1599,
+          "Tax": 878,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 1599,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 2477
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "DH8",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T22:25:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T21:00:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:25 hrs",
+          "FlightNumber": "3708",
+          "OperatingAirlineCode": "SG",
+          "OperatingAirlineFlightNumber": "3708",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "SpiceJet",
+          "AirportTax": "0",
+          "ImageFileName": "SG",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "1599",
+            "Bookingclass": null,
+            "ClassType": "CCHBOHO",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "13",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 5099,
+          "Tax": 1098,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 5099,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 6197
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "DH8",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T18:40:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T16:00:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "2:40 hrs",
+          "FlightNumber": "1033",
+          "OperatingAirlineCode": "SG",
+          "OperatingAirlineFlightNumber": "1033",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "SpiceJet",
+          "AirportTax": "0",
+          "ImageFileName": "SG",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "5099",
+            "Bookingclass": null,
+            "ClassType": "LLHBOHO",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "14",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 999,
+          "Tax": 300,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 999,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 1299
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T06:05:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T05:00:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:5 hrs",
+          "FlightNumber": "872",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "872",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "999",
+            "Bookingclass": null,
+            "ClassType": "P",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "91",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 999,
+          "Tax": 300,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 999,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 1299
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T09:40:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T08:30:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:10 hrs",
+          "FlightNumber": "365",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "365",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "999",
+            "Bookingclass": null,
+            "ClassType": "P",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "92",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 999,
+          "Tax": 300,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 999,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 1299
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T11:10:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T10:00:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:10 hrs",
+          "FlightNumber": "311",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "311",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "999",
+            "Bookingclass": null,
+            "ClassType": "P",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "93",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 999,
+          "Tax": 300,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 999,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 1299
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T15:50:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T14:45:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:5 hrs",
+          "FlightNumber": "706",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "706",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "999",
+            "Bookingclass": null,
+            "ClassType": "P",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "94",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 999,
+          "Tax": 300,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 999,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 1299
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T17:45:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T16:30:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:15 hrs",
+          "FlightNumber": "381",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "381",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "999",
+            "Bookingclass": null,
+            "ClassType": "P",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "95",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 999,
+          "Tax": 300,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 999,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 1299
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T21:15:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T20:05:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:10 hrs",
+          "FlightNumber": "385",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "385",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "999",
+            "Bookingclass": null,
+            "ClassType": "P",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "96",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 999,
+          "Tax": 300,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 999,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 1299
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T22:50:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T21:35:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:15 hrs",
+          "FlightNumber": "383",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "383",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "999",
+            "Bookingclass": null,
+            "ClassType": "P",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "97",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 999,
+          "Tax": 300,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 999,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 1299
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T23:50:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T22:45:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:5 hrs",
+          "FlightNumber": "576",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "576",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "999",
+            "Bookingclass": null,
+            "ClassType": "P",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "98",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 2499,
+          "Tax": 558,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 2499,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 3057
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "AMD",
+          "ArrivalDateTime": "2016-09-13T07:15:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T05:40:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:35 hrs",
+          "FlightNumber": "372",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "372",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "",
+            "Bookingclass": null,
+            "ClassType": "T",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Ahmedabad ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "99",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        },
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T12:20:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "AMD",
+          "DepartureDateTime": "2016-09-13T09:55:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "2:25 hrs",
+          "FlightNumber": "238",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "238",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "2499",
+            "Bookingclass": null,
+            "ClassType": "T",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Ahmedabad ",
+          "IntMarketingAirlineCode": "910",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 2499,
+          "Tax": 558,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 2499,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 3057
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "AMD",
+          "ArrivalDateTime": "2016-09-13T23:55:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T22:10:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "1:45 hrs",
+          "FlightNumber": "276",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "276",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "",
+            "Bookingclass": null,
+            "ClassType": "T",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Ahmedabad ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "911",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        },
+        {
+          "AirEquipType": "",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-14T12:20:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "AMD",
+          "DepartureDateTime": "2016-09-14T09:55:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "2:25 hrs",
+          "FlightNumber": "238",
+          "OperatingAirlineCode": "6E",
+          "OperatingAirlineFlightNumber": "238",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Indigo",
+          "AirportTax": "0",
+          "ImageFileName": "6E",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "2499",
+            "Bookingclass": null,
+            "ClassType": "T",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "0",
+            "InfantFare": "0"
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Ahmedabad ",
+          "IntMarketingAirlineCode": "912",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 1260,
+          "Tax": 1071,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 1260,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 2331
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "AT7",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T09:35:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T08:05:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:30Mins hrs",
+          "FlightNumber": "2410",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "2410",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "1260",
+            "Bookingclass": null,
+            "ClassType": "W",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "1260",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "41",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 4905,
+          "Tax": 2020,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 4905,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 6925
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "73H",
+          "ArrivalAirportCode": "BLR",
+          "ArrivalDateTime": "2016-09-13T08:35:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T07:30:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:5Mins hrs",
+          "FlightNumber": "2742",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "2742",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "",
+            "Bookingclass": null,
+            "ClassType": "H",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Bangalore ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "42",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        },
+        {
+          "AirEquipType": "AT7",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T10:15:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "BLR",
+          "DepartureDateTime": "2016-09-13T09:15:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:0Mins hrs",
+          "FlightNumber": "2308",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "2308",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "4905",
+            "Bookingclass": null,
+            "ClassType": "H",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "4905",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Bangalore ",
+          "IntMarketingAirlineCode": "43",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 4905,
+          "Tax": 2020,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 4905,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 6925
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "73H",
+          "ArrivalAirportCode": "BLR",
+          "ArrivalDateTime": "2016-09-13T08:35:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T07:30:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:5Mins hrs",
+          "FlightNumber": "2742",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "2742",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "",
+            "Bookingclass": null,
+            "ClassType": "H",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Bangalore ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "44",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        },
+        {
+          "AirEquipType": "AT7",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T10:45:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "BLR",
+          "DepartureDateTime": "2016-09-13T09:45:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:0Mins hrs",
+          "FlightNumber": "2302",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "2302",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "4905",
+            "Bookingclass": null,
+            "ClassType": "H",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "4905",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Bangalore ",
+          "IntMarketingAirlineCode": "45",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 6110,
+          "Tax": 1860,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 6110,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 7970
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "738",
+          "ArrivalAirportCode": "BOM",
+          "ArrivalDateTime": "2016-09-13T08:45:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T07:20:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:25Mins hrs",
+          "FlightNumber": "349",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "349",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "",
+            "Bookingclass": null,
+            "ClassType": "H",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Mumbai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "46",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        },
+        {
+          "AirEquipType": "73H",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T12:30:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "BOM",
+          "DepartureDateTime": "2016-09-13T10:30:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "02Hrs:0Mins hrs",
+          "FlightNumber": "485",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "485",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "6110",
+            "Bookingclass": null,
+            "ClassType": "H",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "6110",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Mumbai ",
+          "IntMarketingAirlineCode": "47",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 4905,
+          "Tax": 2020,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 4905,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 6925
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "73H",
+          "ArrivalAirportCode": "BLR",
+          "ArrivalDateTime": "2016-09-13T08:35:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T07:30:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:5Mins hrs",
+          "FlightNumber": "2742",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "2742",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "",
+            "Bookingclass": null,
+            "ClassType": "H",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Bangalore ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "48",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        },
+        {
+          "AirEquipType": "AT7",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T13:20:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "BLR",
+          "DepartureDateTime": "2016-09-13T12:10:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:10Mins hrs",
+          "FlightNumber": "2320",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "2320",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "4905",
+            "Bookingclass": null,
+            "ClassType": "H",
+            "Farebasiscode": null,
+            "Rule": "Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "4905",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Bangalore ",
+          "IntMarketingAirlineCode": "49",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    },
+    {
+      "FareDetails": {
+        "ChargeableFares": {
+          "ActualBaseFare": 3470,
+          "Tax": 1690,
+          "STax": 0,
+          "SCharge": 0,
+          "TDiscount": 0,
+          "TPartnerCommission": 0,
+          "NetFare": 3470,
+          "Conveniencefee": 0
+        },
+        "NonchargeableFares": {
+          "TCharge": 0,
+          "TMarkup": 0,
+          "TSdiscount": 0
+        },
+        "FareBreakUp": {
+          "FareAry": [
+            {
+              "IntPassengerType": null,
+              "IntBaseFare": 0,
+              "IntTax": 0,
+              "IntTaxDataArray": null
+            }
+          ]
+        },
+        "OCTax": 0,
+        "TotalFare": 5160
+      },
+      "FlightSegments": [
+        {
+          "AirEquipType": "73H",
+          "ArrivalAirportCode": "BOM",
+          "ArrivalDateTime": "2016-09-13T10:45:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "HYD",
+          "DepartureDateTime": "2016-09-13T09:25:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:20Mins hrs",
+          "FlightNumber": "458",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "458",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "",
+            "Bookingclass": null,
+            "ClassType": "W",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Mumbai ",
+          "IntDepartureAirportName": "Hyderabad ",
+          "IntMarketingAirlineCode": "410",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        },
+        {
+          "AirEquipType": "738",
+          "ArrivalAirportCode": "MAA",
+          "ArrivalDateTime": "2016-09-13T15:00:00",
+          "ArrivalDateTimeZone": null,
+          "DepartureAirportCode": "BOM",
+          "DepartureDateTime": "2016-09-13T13:10:00",
+          "DepartureDateTimeZone": null,
+          "Duration": "01Hrs:50Mins hrs",
+          "FlightNumber": "481",
+          "OperatingAirlineCode": "9W",
+          "OperatingAirlineFlightNumber": "481",
+          "RPH": "",
+          "StopQuantity": "0",
+          "AirLineName": "Jet Airways",
+          "AirportTax": "0",
+          "ImageFileName": "9W",
+          "ViaFlight": "0",
+          "Discount": "0",
+          "AirportTaxChild": "0",
+          "AirportTaxInfant": "0",
+          "AdultTaxBreakup": "0",
+          "ChildTaxBreakup": "0",
+          "InfantTaxBreakup": "0",
+          "OcTax": "0",
+          "BookingClass": {
+            "Availability": null,
+            "ResBookDesigCode": null,
+            "IntBIC": null
+          },
+          "BookingClassFare": {
+            "AdultFare": "3470",
+            "Bookingclass": null,
+            "ClassType": "W",
+            "Farebasiscode": null,
+            "Rule": "Non Refundable",
+            "AdultCommission": null,
+            "ChildCommission": null,
+            "CommissionOnTCharge": null,
+            "ChildFare": "3470",
+            "InfantFare": ""
+          },
+          "IntNumStops": null,
+          "IntOperatingAirlineName": null,
+          "IntArrivalAirportName": "Chennai ",
+          "IntDepartureAirportName": "Mumbai ",
+          "IntMarketingAirlineCode": "411",
+          "IntLinkSellAgrmnt": null,
+          "IntConx": null,
+          "IntAirpChg": null,
+          "IntInsideAvailOption": null,
+          "IntGenTrafRestriction": null,
+          "IntDaysOperates": null,
+          "IntJourneyTime": null,
+          "IntEndDate": null,
+          "IntStartTerminal": "",
+          "IntEndTerminal": "",
+          "IntFltTm": null,
+          "IntLSAInd": null,
+          "IntMile": null,
+          "Cabin": "",
+          "itineraryNumber": ""
+        }
+      ],
+      "OriginDestinationoptionId": {
+        "Id": "",
+        "Key": "RMSBW97999999987907983899092677785441044"
+      },
+      "IntOnward": null,
+      "IntReturn": null,
+      "RequestDetails": {
+        "Mode": "O",
+        "Source": "HYD",
+        "Destination": "MAA",
+        "Adults": "1",
+        "Children": "0",
+        "Infants": "0",
+        "DepartDate": "2016-09-13T00:00:00",
+        "ReturnDate": "2016-09-13T00:00:00"
+      },
+      "Provider": "UD5nQHpedyXkVZcH+My/Cg==",
+      "AffiliateId": null
+    }
+  ],
+  "DomesticReturnFlights": [],
+  "ProvidersCount": 1,
+  "ResponseStatus": 200,
+  "Message": null
+}

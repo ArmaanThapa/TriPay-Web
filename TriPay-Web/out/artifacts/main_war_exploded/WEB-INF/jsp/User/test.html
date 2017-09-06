@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<style>
+ {
+            font-size: 9pt;
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    Numeric Value: <input type="text" id="text1" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" />
+    <span id="error" style="color: Red; display: none">* Input digits (0 - 14)</span>
+    <script type="text/javascript">
+        var specialKeys = new Array();
+        specialKeys.push(8); //Backspace
+        function IsNumeric(e) {
+            var keyCode = e.which ? e.which : e.keyCode
+            var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
+            document.getElementById("error").style.display = ret ? "none" : "inline";
+            return ret;
+        }
+    </script>
+
+
+
+</body>
+</html>

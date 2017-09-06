@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:task="http://www.springframework.org/schema/task" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+	<bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+
+	<!-- User -->
+	<bean id="userApi" class="com.payqwikweb.api.impl.UserApi">
+	</bean>
+	<bean id="verificationApi" class="com.google.recaptcha.api.impl.VerificationApiImpl">
+	</bean>
+
+
+	<bean id="registerValidation" class="com.payqwikweb.validation.RegisterValidation">
+	</bean>
+
+
+	<bean id="mobileOTPValidation" class="com.payqwikweb.validation.MobileOTPValidation">
+	</bean>
+
+	<bean id="emailOTPValidation" class="com.payqwikweb.validation.EmailOTPValidation">
+	</bean>
+	<bean id="loginValidation" class="com.payqwikweb.validation.LoginValidation">
+	</bean>
+	<bean id="changePasswordValidation" class="com.payqwikweb.validation.ChangePasswordValidation">
+	</bean>
+
+	<bean id="inviteFriendValidation" class="com.payqwikweb.validation.InviteFriendValidation">
+	</bean>
+	<bean id="sendMoneyValidation" class="com.payqwikweb.validation.SendMoneyValidation">
+	</bean>
+	<bean id="payAtStoreValidation" class="com.payqwikweb.validation.PayAtStoreValidation">
+	</bean>
+	<bean id="topupValidation" class="com.payqwikweb.validation.TopupValidation">
+	</bean>
+
+	<bean id="transactionValidation" class="com.payqwikweb.validation.TransactionValidation">
+		<constructor-arg ref="userApi" />
+	</bean>
+	<bean id="commonValidation" class="com.payqwikweb.validation.CommonValidation">
+	</bean>
+
+	<bean id="dTHBillPaymentValidation" class="com.payqwikweb.validation.DTHBillPaymentValidation">
+	</bean>
+
+	<bean id="landlineBillPaymentValidation" class="com.payqwikweb.validation.LandlineBillPaymentValidation">
+	</bean>
+
+	<bean id="electricityBillPaymentValidation"
+		class="com.payqwikweb.validation.ElectricityBillPaymentValidation">
+	</bean>
+
+
+	<bean id="gasBillValidation" class="com.payqwikweb.validation.GasBillPaymentValidation">
+	</bean>
+	<bean id="insuranceBillPaymentValidation"
+		class="com.payqwikweb.validation.InsuranceBillPaymentValidation">
+	</bean>
+
+	<bean id="editProfileValidation" class="com.payqwikweb.validation.EditProfileValidation">
+	</bean>
+
+	<bean id="loadMoneyValidation" class="com.payqwikweb.validation.LoadMoneyValidation">
+	</bean>
+
+
+	<bean id="velocityEngine"
+		class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
+		<property name="velocityProperties">
+			<value>
+				resource.loader=class
+				class.resource.loader.class=org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+			</value>
+		</property>
+	</bean>
+
+
+	<bean id="topupAndBillPaymentApi" class="com.payqwikweb.api.impl.TopupAndBillPaymentApi">
+	</bean>
+
+	<bean id="telcoApi" class="com.payqwikweb.api.impl.TelcoApi">
+	</bean>
+
+	<bean id="loginApi" class="com.payqwikweb.api.impl.LoginApi">
+	</bean>
+
+
+
+
+
+	<bean id="gasBillPaymentApi" class="com.payqwikweb.api.impl.GasBillPaymentApi">
+	</bean>
+
+	<bean id="dthBillPaymentApi" class="com.payqwikweb.api.impl.DTHBillPaymentApi">
+	</bean>
+
+	<bean id="editProfileApi" class="com.payqwikweb.api.impl.EditProfileApi">
+	</bean>
+
+	<bean id="electricityBillPaymentApi" class="com.payqwikweb.api.impl.ElectricityBillPaymentApi">
+	</bean>
+
+	<bean id="insuranceBillPaymentApi" class="com.payqwikweb.api.impl.InsuranceBillPaymentApi">
+	</bean>
+
+	<bean id="landlineBillPaymentApi" class="com.payqwikweb.api.impl.LandlineBillPaymentApi">
+	</bean>
+
+	<bean id="loadMoneyApi" class="com.payqwikweb.api.impl.LoadMoneyApi">
+	</bean>
+
+	<bean id="loadMoneyRsaKeyApi" class="com.payqwikweb.api.impl.LoadMoneyRsaKeyApi">
+	</bean>
+
+	<bean id="payAtStoreApi" class="com.payqwikweb.api.impl.PayAtStoreApi">
+	</bean>
+
+	<bean id="postpaidTopupApi" class="com.payqwikweb.api.impl.PostpaidTopupApi">
+	</bean>
+
+	<bean id="prepaidTopupApi" class="com.payqwikweb.api.impl.PrepaidTopupApi">
+	</bean>
+
+	<bean id="registerApi" class="com.payqwikweb.api.impl.RegisterApi">
+	</bean>
+
+	<bean id="sendMoneyMobileApi" class="com.payqwikweb.api.impl.SendMoneyMobileApi">
+	</bean>
+
+	<bean id="uploadProfilePictureApi" class="com.payqwikweb.api.impl.UploadProfilePictureApi">
+	</bean>
+
+	<bean id="verifyMobileApi" class="com.payqwikweb.api.impl.VerifyMobileApi">
+	</bean>
+
+	<bean id="forgotPasswordApi" class="com.payqwikweb.api.impl.ForgotPasswordApi">
+	</bean>
+
+	<bean id="dataCardTopupApi" class="com.payqwikweb.api.impl.DataCardTopupApi">
+	</bean>
+
+	<bean id="logoutApi" class="com.payqwikweb.api.impl.LogoutApi">
+	</bean>
+
+	<bean id="authenticationApi" class="com.payqwikweb.api.impl.AuthenticationApi">
+	</bean>
+
+
+	<!-- FOR MOBILE BEANS -->
+
+	<bean id="mloginApi" class="com.payqwikweb.mobile.api.impl.MLoginApi">
+	</bean>
+
+	<bean id="mRegisterApi" class="com.payqwikweb.mobile.api.impl.MRegisterApi">
+	</bean>
+
+	<bean id="mLogoutApi" class="com.payqwikweb.mobile.api.impl.MLogoutApi">
+	</bean>
+
+	<bean id="mPrepaidTopupApi" class="com.payqwikweb.mobile.api.impl.MPrepaidTopupApi">
+	</bean>
+
+	<bean id="mPostpaidTopupApi" class="com.payqwikweb.mobile.api.impl.MPostpaidTopupApi">
+	</bean>
+
+	<bean id="mDataCardTopupApi" class="com.payqwikweb.mobile.api.impl.MDataCardTopupApi">
+	</bean>
+
+	<bean id="mDTHBillPaymentApi" class="com.payqwikweb.mobile.api.impl.MDTHBillPaymentApi">
+	</bean>
+
+	<bean id="mLandlineBillPaymentApi" class="com.payqwikweb.mobile.api.impl.MLandlineBillPaymentApi">
+	</bean>
+
+	<bean id="mElectricityBillPaymentApi"
+		class="com.payqwikweb.mobile.api.impl.MElectricityBillPaymentApi">
+	</bean>
+
+	<bean id="mGasBillPaymentApi" class="com.payqwikweb.mobile.api.impl.MGasBillPaymentApi">
+	</bean>
+
+	<bean id="mInsuranceBillPaymentApi" class="com.payqwikweb.mobile.api.impl.MInsuranceBillPaymentApi">
+	</bean>
+
+	<bean id="telco" class="com.payqwikweb.api.impl.TelcoApi">
+	</bean>
+
+	<!-- APP API -->
+	<bean id="appAdminApi" class="com.payqwikweb.app.api.impl.AdminApi">
+	</bean>
+
+	<bean id="appBillPaymentApi" class="com.payqwikweb.app.api.impl.BillPaymentApi">
+	</bean>
+
+	<bean id="appLoadMoneyApi" class="com.payqwikweb.app.api.impl.LoadMoneyApi">
+	</bean>
+
+	<bean id="appLoginApi" class="com.payqwikweb.app.api.impl.LoginApi">
+	</bean>
+
+	<bean id="appLogoutApi" class="com.payqwikweb.app.api.impl.LogoutApi">
+	</bean>
+
+	<bean id="appRegistrationApi" class="com.payqwikweb.app.api.impl.RegistrationApi">
+	</bean>
+
+	<bean id="appSendMoneyApi" class="com.payqwikweb.app.api.impl.SendMoneyApi">
+	</bean>
+
+	<bean id="appTopupApi" class="com.payqwikweb.app.api.impl.TopupApi">
+	</bean>
+
+	<bean id="appUserApi" class="com.payqwikweb.app.api.impl.UserApi">
+	</bean>
+
+</beans>

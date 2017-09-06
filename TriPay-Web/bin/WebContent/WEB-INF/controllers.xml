@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd	
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		 http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- MAIN CONTROLLER -->
+	<bean class="com.payqwikweb.controller.web.MainController">
+		<constructor-arg ref="authenticationApi" />
+	</bean>
+
+	<!-- LOGIN CONTROLLER -->
+	<bean class="com.payqwikweb.controller.web.LoginController">
+		<constructor-arg ref="appLoginApi" />
+		<constructor-arg ref="commonValidation" />
+	</bean>
+
+	<!-- MOBILE LOGIN CONTROLLER -->
+	<bean class="com.payqwikweb.controller.mobile.LoginController">
+		<constructor-arg ref="mloginApi" />
+		<constructor-arg ref="commonValidation" />
+	</bean>
+
+
+	<!-- REGISTER CONTROLLER -->
+	<bean class="com.payqwikweb.controller.web.RegisterController">
+		<constructor-arg ref="registerValidation" />
+		<constructor-arg ref="userApi" />
+		<constructor-arg ref="mobileOTPValidation" />
+		<constructor-arg ref="emailOTPValidation" />
+		<constructor-arg ref="registerApi" />
+		<constructor-arg ref="forgotPasswordApi" />
+	</bean>
+
+	<!-- REGISTER CONTROLLER -->
+	<bean class="com.payqwikweb.controller.mobile.RegisterController">
+		<constructor-arg ref="registerValidation" />
+		<constructor-arg ref="userApi" />
+		<constructor-arg ref="mobileOTPValidation" />
+		<constructor-arg ref="emailOTPValidation" />
+		<constructor-arg ref="mRegisterApi" />
+	</bean>
+
+	<!-- THIRD PARTY CONTROLLER -->
+	<bean class="com.thirdparty.controller.InstantPayController"></bean>
+	<bean class="com.thirdparty.controller.SMSController"></bean>
+
+	<!-- ADMIN CONTROLLER -->
+	<bean class="com.payqwikweb.controller.web.AdminAddController">
+		<constructor-arg ref="registerValidation" />
+		<constructor-arg ref="userApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.AdminViewController">
+		<constructor-arg ref="appAdminApi" />
+		<constructor-arg ref="authenticationApi" />
+		<constructor-arg ref="appLogoutApi" />
+		<constructor-arg ref="appUserApi" />
+
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.AdminAjaxController">
+		<constructor-arg ref="userApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.GuestAjaxController">
+		<constructor-arg ref="telcoApi" />
+	</bean>
+
+	<!-- USER CONTROLLER -->
+	<bean class="com.payqwikweb.controller.web.UserAccountController">
+		<constructor-arg ref="inviteFriendValidation" />
+		<constructor-arg ref="userApi" />
+	</bean>
+
+	<!-- WEB BILL PAYMENT -->
+	<bean class="com.payqwikweb.controller.web.UserBillPaymentController">
+		<constructor-arg ref="dthBillPaymentApi" />
+		<constructor-arg ref="landlineBillPaymentApi" />
+		<constructor-arg ref="electricityBillPaymentApi" />
+		<constructor-arg ref="gasBillPaymentApi" />
+		<constructor-arg ref="insuranceBillPaymentApi" />
+	</bean>
+
+	<!-- MOBILE BILL PAYMENT -->
+	<bean class="com.payqwikweb.controller.mobile.UserBillPaymentController">
+		<constructor-arg ref="mDTHBillPaymentApi" />
+		<constructor-arg ref="mLandlineBillPaymentApi" />
+		<constructor-arg ref="mElectricityBillPaymentApi" />
+		<constructor-arg ref="mGasBillPaymentApi" />
+		<constructor-arg ref="mInsuranceBillPaymentApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.UserProfileController">
+		<constructor-arg ref="userApi" />
+		<constructor-arg ref="authenticationApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.UserSettingsController">
+		<constructor-arg ref="appUserApi" />
+	</bean>
+
+	<!-- WEB USERTOPUPCONTROOLER -->
+	<bean class="com.payqwikweb.controller.web.UserTopUpController">
+		<constructor-arg ref="prepaidTopupApi" />
+		<constructor-arg ref="postpaidTopupApi" />
+		<constructor-arg ref="dataCardTopupApi" />
+	</bean>
+
+	<!-- MOBILE USERTOPUPCONTROOLER -->
+	<bean class="com.payqwikweb.controller.mobile.UserTopUpController">
+		<constructor-arg ref="mPrepaidTopupApi" />
+		<constructor-arg ref="mPostpaidTopupApi" />
+		<constructor-arg ref="mDataCardTopupApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.SendMoneyController">
+		<constructor-arg ref="sendMoneyMobileApi" />
+		<constructor-arg ref="sendMoneyValidation" />
+		<constructor-arg ref="transactionValidation" />
+		<constructor-arg ref="userApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.UserCouponController">
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.UserPayAtStoreController">
+		<constructor-arg ref="payAtStoreApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.UserLoadMoneyController">
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.CallbackController">
+	</bean>
+
+	<bean id="adminReportsController" class="com.payqwikweb.controller.web.AdminReportsController">
+		<!-- <constructor-arg ref="authenticationApi"/> -->
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.TelcoController">
+		<constructor-arg ref="telco" />
+	</bean>
+
+
+	<bean class="com.payqwikweb.controller.web.GetOperatorCircleController">
+		<constructor-arg ref="appTopupApi" />
+	</bean>
+
+
+	<!-- LOGOUT CONTROLLER -->
+	<bean class="com.payqwikweb.controller.web.LogoutController">
+		<constructor-arg ref="appLogoutApi" />
+		<constructor-arg ref="authenticationApi" />
+	</bean>
+
+	<!-- MOBILE CONTROLLER -->
+	<bean class="com.payqwikweb.controller.mobile.LogoutController">
+		<constructor-arg ref="mLogoutApi" />
+	</bean>
+
+	<!-- MOBILE API CONTROLLER -->
+	<bean class="com.payqwikweb.controller.mobile.api.BillPaymentAPIController">
+		<constructor-arg ref="appBillPaymentApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.mobile.api.LoadMoneyAPIController">
+		<constructor-arg ref="appLoadMoneyApi" />
+		<constructor-arg ref="authenticationApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.mobile.api.LoginAPIController">
+		<constructor-arg ref="appLoginApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.mobile.api.LogoutAPIController">
+		<constructor-arg ref="appLogoutApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.mobile.api.RegistrationAPIController">
+		<constructor-arg ref="appRegistrationApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.mobile.api.SendMoneyAPIController">
+		<constructor-arg ref="appSendMoneyApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.mobile.api.TopupAPIController">
+		<constructor-arg ref="appTopupApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.mobile.api.UserAPIController">
+		<constructor-arg ref="appUserApi" />
+	</bean>
+
+	<!-- New Controller Mapping -->
+	<bean class="com.payqwikweb.controller.web.user.TopupController">
+		<constructor-arg ref="appTopupApi" />
+		<constructor-arg ref="authenticationApi" />
+		<constructor-arg ref="topupValidation"/>
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.user.BillPaymentController">
+		<constructor-arg ref="appBillPaymentApi" />
+		<constructor-arg ref="authenticationApi" />
+		<constructor-arg ref="dTHBillPaymentValidation" />
+		<constructor-arg ref="landlineBillPaymentValidation" />
+		<constructor-arg ref="electricityBillPaymentValidation" />
+		<constructor-arg ref="gasBillValidation" />
+		<constructor-arg ref="insuranceBillPaymentValidation" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.user.LoadMoneyController">
+		<constructor-arg ref="appLoadMoneyApi" />
+		<constructor-arg ref="authenticationApi" />
+		<constructor-arg ref="loadMoneyValidation" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.user.LoginController">
+		<constructor-arg ref="appLoginApi" />
+		<constructor-arg ref="loginValidation" />
+	    <constructor-arg ref="verificationApi" />
+		
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.user.LogoutController">
+		<constructor-arg ref="appLogoutApi" />
+		<constructor-arg ref="authenticationApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.user.RegistrationController">
+		<constructor-arg ref="appRegistrationApi" />
+		<constructor-arg ref="verificationApi" />
+		<constructor-arg ref="registerValidation" />
+		<constructor-arg ref="mobileOTPValidation" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.user.SendMoneyController">
+		<constructor-arg ref="appSendMoneyApi" />
+		<constructor-arg ref="authenticationApi" />
+		<constructor-arg ref="sendMoneyValidation" />
+		<constructor-arg ref="payAtStoreValidation" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.user.UserController">
+		<constructor-arg ref="editProfileValidation"/>
+		<constructor-arg ref="changePasswordValidation"/>
+		<constructor-arg ref="appUserApi" />
+		<constructor-arg ref="authenticationApi" />
+		<constructor-arg ref="verificationApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.controller.web.admin.AdminController">
+		<constructor-arg ref="appAdminApi" />
+		<constructor-arg ref="authenticationApi" />
+	</bean>
+
+	<bean class="com.payqwikweb.gcm.GCMController"></bean>
+
+</beans>

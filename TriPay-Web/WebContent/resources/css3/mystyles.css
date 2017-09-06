@@ -1,0 +1,48 @@
+/*YOUR CUSTOM STYLES*/
+ .topline {
+	height: 8px;
+	background: #17bcc8;
+
+}
+.navbar-brand{
+	margin-top: 5px;
+}
+.navbar-nav li a{
+	line-height: 40px;
+    	color: #17bcc8;
+    	font-weight: bold;
+
+}
+.nav-tabs > li.active > a {
+  background: #17bcc8;
+  cursor: default;
+  color: white;
+}
+.nav-tabs > li.active > a:hover {
+  background: #17bcc8;
+}
+#main-footer row-wrap{
+	margin-top: 20px;	
+}
+
+footer {
+ min-height: 30px;
+  bottom: 0;
+  width: 100%;
+  Set the fixed height of the footer here
+  height: 5%;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 8px;
+
+}
+
+
+footer a{
+ padding-right: 8px;
+ padding-left: 8px;
+ color: #000000;
+ border-right:#e6e6e6 solid 1.5px;
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 13px;
+}

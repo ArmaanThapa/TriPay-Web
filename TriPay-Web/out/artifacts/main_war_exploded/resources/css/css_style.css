@@ -1,0 +1,887 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+/*------bus ------------------------------- */
+#bus{
+ background: #FFFFFF; 
+ margin-top: -80px;
+ -webkit-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+ -moz-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+ box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+    padding: 15px;
+}
+.foo{
+ padding-left: 33px !important;
+}
+ .group_2 img{
+   width: 25px;
+   margin-top: -38px;
+      position: absolute;
+}
+.group_2 {
+ position: relative;
+ margin-bottom: 20px;
+}
+
+.group_2 input {
+ font-size: 18px;
+ font-family: 'Ubuntu', sans-serif;
+ padding: 10px 10px 10px 5px;
+ display: block;
+ width: 100%;
+ border: none;
+ border-bottom: 1px solid #757575;
+}
+
+/ BOTTOM BARS ================================= /
+.group_2 .bar {
+ position: relative;
+ display: block;
+ width: 100%;
+}
+/ LABEL ======================================= /
+.group_2 label {
+ color: #999;
+ font-size: 15px;
+ font-weight: normal;
+    margin-left: 28px;
+ position: absolute;
+ pointer-events: none;
+ left: 5px;
+ top: 10px;
+ transition: 0.2s ease all;
+ -moz-transition: 0.2s ease all;
+ -webkit-transition: 0.2s ease all;
+}
+#size{
+	width: 150px; text-align: center;
+}
+
+#friends{
+	margin-right: 2px;
+	color: #17bcc8;
+}
+
+#friends_left{
+	margin-left: -8px;
+	color: #17bcc8;
+}
+
+.float{
+	float: left;
+	margin-right: 10px;
+}
+
+.menufa{
+	color: white;
+	vertical-align: sub;
+}
+
+.error{
+	position: absolute;
+	width: 85%;
+	z-index: 2;
+	color: red;
+	text-align: right;
+	font-size: 8pt;
+}
+
+.links{
+	width: 85%;
+	text-align: right;
+	font-size: 8pt;
+}
+
+.error1{
+	position: absolute;
+	width: 85%;
+	z-index: 2;
+	color: red;
+	text-align: right;
+	font-size: 8pt;
+	margin-top: -25px;
+}
+
+.title_error{
+	position: absolute;
+	width: 85%;
+	z-index: 2;
+	color: red;
+	text-align: center;
+	font-size: 10pt;
+}
+
+#plan_link{
+	position: absolute;
+	font-size: 9pt;
+}
+
+#forgotPassword{
+	border-radius: 0;
+}
+
+.topline {
+	height: 6px;
+	background: #17bcc8;
+}
+
+.navbar-right {
+	padding-top: 0px;
+	height: 70px;
+}
+
+.navbar-right li {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+}
+
+.navbar-right li p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+
+.navbar-header {
+	margin-top: -8px;
+}
+
+/* ============== Account ============================= */
+
+#Account {
+	margin-bottom: 2%;
+	background: url("/resources/images/main/bg.jpg");
+}
+
+#Account legend {
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+#Account hr {
+	margin-top: -5px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+}
+
+#Account p {
+	color: gray;
+	font-weight: bold;
+}
+
+/*#Account img{
+	border: 5px solid gray;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}*/
+
+#Account h3 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#Account h4 {
+	font-weight: bold;
+	background: #ec2029;
+	color: white;
+	width: 100%;
+	height: 35px;
+	padding: 10px;
+}
+
+#foto {
+	margin-top: 50px;
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.foto {
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+	width: 232px;
+	height: 232px;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.title {
+	font-size: 40px;
+	line-height: 72px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sub-title {
+	font-size: 26px;
+	margin-top: -15px;
+}
+
+/* settings ============================= */
+
+#settings {
+	background: #F8F2F2;
+	padding-top: 35px;
+	padding-bottom: 40px;
+}
+
+#settings .line {
+	background: red;
+	width: 100%;
+	height: 5px;
+	margin-bottom: 30px;
+}
+
+/*-----------main------------*/
+#main_menu{
+	text-align: center;
+	height: 10%;
+	background: #17bcc8;
+}
+
+#main_menu a{
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	margin-right: 3%;
+}
+
+#main {
+	text-align: center;
+	height: 10%;
+	background: #17bcc8;
+	margin-top: 20px;
+}
+
+#main a {
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	margin-right: 3%;
+}
+
+/* receipts ===========================================*/
+
+#receipts {
+	overflow-y: auto;
+	height: 440px;
+}
+
+#receipts thead th {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: gray;
+}
+
+/*----------Mobile Topup-------------*/
+
+.background {
+	background: #17bcc8;
+	height: 6em;
+}
+
+#box {
+	background: #FFFFFF;
+	height: 450px;
+	margin-top: -80px;
+	-webkit-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	-moz-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+}
+
+/*--------------------bill payment---------------------*/
+
+#bill_box {
+	background: #FFFFFF;
+	height: 450px;
+	margin-top: -80px;
+	-webkit-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	-moz-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+}
+
+#bill_box .box {
+	height: 32.1em;
+	width: 10px;
+	margin-left: 95.6%;
+	background: #6f6f6f;
+	position: absolute;
+	border-radius: 20px 0px 0px 20px;
+	-moz-border-radius: 20px 0px 0px 20px;
+	-webkit-border-radius: 20px 0px 0px 20px;
+	border: 0px solid #000000;
+}
+
+#bill_box .nav-pills {
+	margin-left: 8%;
+	margin-top: 3%;
+}
+
+#bill_payment #menu1 {
+	margin-top: -21px;
+}
+
+/*--------------send money-----------------------*/
+
+#money_box {
+	background: #FFFFFF;
+	height: 450px;
+	margin-top: -80px;
+	-webkit-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	-moz-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+}
+
+#Prepaid {
+	background: #e4edf4;
+	height: 70px;
+	text-align: center;
+}
+
+#sendmoney #menu1 {
+	margin-top: -23px;
+}
+
+.box {
+	height: 32.1em;
+	width: 10px;
+	margin-left: 94%;
+	background: #6f6f6f;
+	position: absolute;
+	border-radius: 20px 0px 0px 20px;
+	-moz-border-radius: 20px 0px 0px 20px;
+	-webkit-border-radius: 20px 0px 0px 20px;
+	border: 0px solid #000000;
+}
+
+.tab-content {
+	margin-top: 20px;
+}
+
+.nav-pills {
+	margin-left: 15%;
+	margin-top: 4%;
+}
+
+.nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>li>a:hover
+{
+	font-weight: bold;
+	border-radius: 0px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #035098;
+	color: #000 !important;
+	background-color: transparent !important;
+}
+
+.nav-pills>li>a {
+	border-radius: 2px;
+	color: rgba(0, 0, 0, 1.00);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*------Prepaid ------------------------------- */
+
+.group_1 {
+	position: relative;
+	margin-bottom: 20px;
+	margin-left: 12%;
+}
+
+input {
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 86%;
+	border: none;
+	border-bottom: 1px solid #757575;
+}
+
+input:focus {
+	outline: none;
+}
+
+/* LABEL ======================================= */
+
+label {
+	color: #999;
+	font-size: 15px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label {
+	top: -13px;
+	font-size: 14px;
+	color: #5264AE;
+}
+
+/* Browse Plans  ====================================*/
+.table-fixed tbody {
+	height: 400px;
+	overflow-y: auto;
+	width: 100%;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td,
+.table-fixed th {
+	display: block;
+}
+
+.table-fixed tbody td, .table-fixed thead>tr>th {
+	float: left;
+	border-bottom-width: 0;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+	position: relative;
+	display: block;
+	width: 86%;
+}
+
+.bar:before, .bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #5264AE;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+	left: 50%;
+}
+
+.bar:after {
+	right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+	width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+	position: absolute;
+	height: 60%;
+	width: 100px;
+	top: 25%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+	-webkit-animation: inputHighlighter 0.3s ease;
+	-moz-animation: inputHighlighter 0.3s ease;
+	animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {from {
+	background:#5264AE;
+}
+
+	to {
+		width: 0;
+		background: transparent;
+	}
+
+}
+@-moz-keyframes inputHighlighter {from {
+	background:#5264AE;
+}
+
+	to {
+		width: 0;
+		background: transparent;
+	}
+
+}
+@keyframes inputHighlighter {from {
+	background:#5264AE;
+}
+
+	to {
+		width: 0;
+		background: transparent;
+	}
+}
+
+/*--------------------------------@media-------------*/
+
+@media all and (max-width: 768px) {
+	.form {
+		margin-top: 25px;
+	}
+	.btn {
+		margin-top: 40px;
+	}
+	#bill_box .nav-pills{
+		margin-left: 0%!important;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.nav-pills {
+		margin-left: -2% !important;
+		margin-top: 4%;
+	}
+	#bill_box .nav-pills{
+		margin-left: 0px;
+	}
+	#box {
+		background: #FFFFFF;
+		height: 375px;
+		margin-top: -80px;
+		-webkit-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+		-moz-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+		box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	}
+	.carousel-inner {
+		margin-left: 5px;
+	}
+	.box {
+		height: 26.8em;
+		width: 10px;
+		margin-left: 94%;
+		background: #6f6f6f;
+		position: absolute;
+		border-radius: 20px 0px 0px 20px;
+		-moz-border-radius: 20px 0px 0px 20px;
+		-webkit-border-radius: 20px 0px 0px 20px;
+		border: 0px solid #000000;
+	}
+	.group_1 {
+		position: relative;
+		margin-bottom: 23px;
+		margin-top: -10px;
+		margin-left: 12%;
+	}
+	.tab-content{
+		margin-top: 0px;
+	}
+	.btn{
+		margin-top: 0px;
+	}
+	/*---------------send money-----------------------*/
+	#money_box {
+		background: #FFFFFF;
+		height: 410px;
+		margin-top: -80px;
+		-webkit-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+		-moz-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+		box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	}
+	#money_box 	.carousel-inner {
+		margin-left: 5px;
+		width: 99%;
+	}
+	#money_box 	.box {
+		height: 29.3em;
+		width: 10px;
+		margin-left: 94%;
+		background: #6f6f6f;
+		position: absolute;
+		border-radius: 20px 0px 0px 20px;
+		-moz-border-radius: 20px 0px 0px 20px;
+		-webkit-border-radius: 20px 0px 0px 20px;
+		border: 0px solid #000000;
+	}
+}
+
+@media all and (max-width: 990px){
+
+	.navbar-header{
+		margin-left: -50px;
+	}
+
+	#Prepaid {
+		margin-top: -30px;
+	}
+	.nav-pills {
+		margin-left: 30%;
+		padding: 10px;
+		text-align: center;
+	}
+	.box {
+		display: none;
+	}
+	#mycarousel {
+		display: none;
+	}
+	#box {
+		background: #FFFFFF;
+		height: 450px;
+		margin-top: -80px;
+		-webkit-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+		-moz-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+		box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	}
+	/*---------------send money-----------------------*/
+	#money_box {
+		background: #FFFFFF;
+		height: 420px;
+		margin-top: -80px;
+		-webkit-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+		-moz-box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+		box-shadow: -1px 1px 47px -7px rgba(0, 0, 0, 0.67);
+	}
+	#money_box #menu1 .btn {
+		margin-top: 0px;
+	}
+	.tab-content form{
+		margin-top: 20px;
+	}
+	#home{
+		margin-top: 20px;
+	}
+}
+
+@media all and (max-width: 555px) {
+	#Prepaid {
+		margin-top: -20px;
+	}
+	.nav-pills {
+		margin-left: 1%;
+
+		padding: 10px;
+		text-align: center;
+	}
+	.dropdown-content {
+		left: 0;
+	}
+}
+
+
+@media all and (max-width: 375px){
+	.navbar-brand>img{
+		margin-top: 15px;
+		width: 190px !important;
+		margin-left:-15px;
+	}
+	.navbar-right li{
+		margin-top:10px;
+	}
+	.nav-pills {
+		margin-left: -10%;
+	}
+}
+
+/*-------------------footer------------------*/
+
+footer {
+	background: #FCFCFC;
+	margin-top: 10%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-links {
+	margin-top: 10%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+footer a {
+	color: #3F3F3F;
+}
+
+.help {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	height: 10%;
+	background: #17bcc8;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+footer img {
+	padding-bottom: 8px;
+}
+
+.footer-links {
+	margin-top: 16px;
+}
+
+/*--------------------dropdown---------------------------*/
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	z-index: 999;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	min-width: 220px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-top: 50px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+/* Update Wallet ==============================*/
+#UpdateWallet{
+	background: #FFFFFF;
+	-webkit-box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+	box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+	margin-top: -80px;
+}
+
+/*Load Money====================================*/
+
+#load{
+	background: #FFFFFF;
+	-webkit-box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+	box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+	margin-top: -80px;
+}
+
+.icon{
+	background: #5AB1D0;
+	height: 50px;
+	width: 50px;
+	z-index:99;
+	margin-left:8%;
+}
+.icon .fa{
+	padding:15px;
+	color: white;
+
+}
+
+/*----------------------about us----------------------------*/
+
+#aboutus line{
+	width: 120px;
+	float: left;
+	border: solid;
+	margin-top: 0;
+	margin-left: 10px;
+}
+
+#aboutus {
+	background: #FFFFFF;
+	-webkit-box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+	box-shadow: -1px -10px 41px -12px rgba(0, 0, 0, 0.37);
+}
+
+#aboutus p {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#aboutus h2 {
+	margin-left: 10px;
+}
+
+.Accolades h1 {
+	text-align: center;
+	font-weight: bold;
+	color: gray;
+}
+
+.Accolades img {
+	margin-bottom: -60px;
+}
+
+@media all and (max-width: 478px) {
+	.navbar-brand>img{
+		margin-top: 15px;
+		width: 190px !important;
+	}
+
+	.Accolades img {
+		margin-bottom: -00px;
+	}
+
+	#bill_payment .nav-pills {
+		margin-left: -10px;
+		padding-top: 20px;
+		float: left;
+		margin-top: 10px;
+	}
+
+	.nav-pills> .li >.a .span{
+		display: none;
+	}
+
+	/*-----------------------control-----------------------------*/
+	#Partner input {
+		background: rgba(0, 0, 0, 1.00);
+	}
+	/*-----------------------profil-------------------------------*/
+
+	/*------------------------css code for spinner-------------------*/
+	.no-js #loader {
+		display: none;
+	}
+	.js #loader {
+		display: block;
+		position: absolute;
+		left: 100px;
+		top: 0;
+	}
+	.se-pre-con {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background: url(/images/pq.gif) center no-repeat #fff;
+	}
+	.nav-pills>li>a>span{
+		display:none;
+	}
+	.nav-pills>li>a>i{
+		font-size: x-large;
+	}
+	.nav-pills>li{
+		border-right: 1px solid #b4cee2;
+	}
+}

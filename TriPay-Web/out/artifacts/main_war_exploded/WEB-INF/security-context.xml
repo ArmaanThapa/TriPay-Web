@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+           http://www.springframework.org/schema/security
+           http://www.springframework.org/schema/security/spring-security-4.0.xsd">
+
+	<http pattern="/**/*.css" security="none" />
+	<http pattern="/**/*.gif" security="none" />
+	<http pattern="/**/*.html" security="none" />
+	<http pattern="/**/*.ttf" security="none" />
+	<http pattern="/**/*.eot" security="none" />
+	<http pattern="/**/*.svg" security="none" />
+	<http pattern="/**/*.woff" security="none" />
+	<http pattern="/**/*.woff2" security="none" />
+	<http pattern="/**/*.xls" security="none" />
+	<http pattern="/**/*.ico" security="none" />
+	<http pattern="/**/*.jpg" security="none" />
+	<http pattern="/**/*.js" security="none" />
+	<http pattern="/**/*.png" security="none" />
+	<http pattern="/**/*.xml" security="none" />
+	<http pattern="/**/*.mp4" security="none" />
+	<http pattern="/**/ReSendEmailOTP/" security="none" />
+	<http pattern="/User/LoadMoney/**" security="none" />
+	<http pattern="/ws/**" security="none" />
+	<http pattern="/Version/**" security="none" />
+	<http pattern="/**/Android/**" security="none" />
+	<http pattern="/InstantPay/**" security="none" />
+	<http pattern="/SendSMS/**" security="none" />
+	<http pattern="/**/UploadPicture/" security="none" />
+	<http pattern="/**/Admin/Report/" security="none" />
+	<http pattern="/User/RedeemCoupon/**" security="none" />
+	<http pattern="/Check/**" security="none" />
+	<http pattern="/**/SendNotification/" security="none" />
+	<http pattern="/**/Merchant/" security="none" />
+	<http pattern="/**/IPayCall/**" security="none" />
+	<http pattern="/IPayCall" security="none" />
+	<http pattern="/**/GetQR" security="none" />
+	<http pattern="/GetQR" security="none" />
+	<http pattern="/Merchant/**" security="none" />
+	<http pattern="/Admin/**" security="none" />
+		<http pattern="/**/Getbusdeatail/**" security="none" />
+		<http pattern="/**/getcheckbusbookdetial/**" security="none" />
+		<http pattern="/**/Busbookingandgetticket/**" security="none"  /> 	
+	
+	
+
+	<http auto-config="true" use-expressions="true">
+		<headers defaults-disabled="true">
+			<xss-protection block="false" />
+			<frame-options policy="DENY" />
+
+			<content-type-options />
+			<hsts include-subdomains="true" max-age-seconds="31536000" />
+		</headers>
+		<session-management invalid-session-url="/Home">
+			<concurrency-control max-sessions="1" />
+		</session-management>
+	</http>
+
+	<authentication-manager alias="authenticationManager">
+		<authentication-provider user-service-ref="userDetailService">
+			<password-encoder ref="passwordEncoder">
+			</password-encoder>
+		</authentication-provider>
+	</authentication-manager>
+
+	<beans:bean id="userDetailService"
+		class="com.payqwikweb.session.UserDetailsServiceImpl">
+	</beans:bean>
+
+	<beans:bean id="passwordEncoder"
+		class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
+</beans:beans>

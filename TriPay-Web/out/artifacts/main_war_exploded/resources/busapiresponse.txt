@@ -1,0 +1,204 @@
+{
+    "AvailableTrips": [
+        {
+            "DisplayName": "Deepak Travels",
+            "AvailableSeats": "38",
+            "ArrivalTime": "08:00 AM",
+            "BoardingTimes": [
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": "6",
+                    "Landmark": "ameerpet,|jeans corner ",
+                    "Location": "ameerpet,|jeans corner ",
+                    "Name": null,
+                    "Time": "1260"
+                },
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": "2224",
+                    "Landmark": "S.R Nagar,S.R Nagar",
+                    "Location": "S.R Nagar,S.R Nagar",
+                    "Name": null,
+                    "Time": "1275"
+                },
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": "2244",
+                    "Landmark": "Kondapur,Toyota Show room",
+                    "Location": "Kondapur,Toyota Show room",
+                    "Name": null,
+                    "Time": "1270"
+                }
+            ],
+            "BusType": "2+1 Hi-Tech Non A/c",
+            "CancellationPolicy": "1:-1:90:0;2:-1:50:0;4:-1:10:0",
+            "DepartureTime": "9:00 PM",
+            "DestinationId": 2445,
+            "Duration": "11:00 hrs",
+            "DroppingTimes": [
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": null,
+                    "Landmark": "",
+                    "Location": null,
+                    "Name": null,
+                    "Time": null
+                }
+            ],
+            "Fares": "800",
+            "ServiceTax": "0.00",
+            "OperatorServiceCharge": "0.00",
+            "ConvenienceFee": 0,
+            "AffiliateId": null,
+            "NetFares": "800",
+            "Id": "6622-0",
+            "Provider": "ASw7iG9082iyI7qZCJasgA==",
+            "PartialCancellationAllowed": "false",
+            "SeatType": 3,
+            "SourceId": 2667,
+            "Travels": "Deepak Travels",
+            "Mticket": "false",
+            "InventoryType": null,
+            "Journeydate": "2016-10-10"
+        },
+        {
+            "DisplayName": "Dhanunjayabus",
+            "AvailableSeats": "41",
+            "ArrivalTime": "07:00 AM",
+            "BoardingTimes": [
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": "6",
+                    "Landmark": "Ameerpet,|Jeans Corner",
+                    "Location": "Ameerpet,|Jeans Corner",
+                    "Name": null,
+                    "Time": "1270"
+                },
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": "2224",
+                    "Landmark": "S.R Nagar,S.R Nagar",
+                    "Location": "S.R Nagar,S.R Nagar",
+                    "Name": null,
+                    "Time": "1260"
+                },
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": "2230",
+                    "Landmark": "KUKATPALLY,JNTU",
+                    "Location": "KUKATPALLY,JNTU",
+                    "Name": null,
+                    "Time": "1230"
+                }
+            ],
+            "BusType": "VOLVO",
+            "CancellationPolicy": "1:-1:90:0;2:-1:50:0;4:-1:10:0",
+            "DepartureTime": "9:00 PM",
+            "DestinationId": 2445,
+            "Duration": "10:00 hrs",
+            "DroppingTimes": [
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": null,
+                    "Landmark": "",
+                    "Location": null,
+                    "Name": null,
+                    "Time": null
+                }
+            ],
+            "Fares": "900",
+            "ServiceTax": "0.00",
+            "OperatorServiceCharge": "0.00",
+            "ConvenienceFee": 0,
+            "AffiliateId": null,
+            "NetFares": "900",
+            "Id": "6743-0",
+            "Provider": "ASw7iG9082iyI7qZCJasgA==",
+            "PartialCancellationAllowed": "false",
+            "SeatType": 1,
+            "SourceId": 2667,
+            "Travels": "Dhanunjayabus",
+            "Mticket": "false",
+            "InventoryType": null,
+            "Journeydate": "2016-10-10"
+        },
+        {
+            "DisplayName": "Ashok Travels",
+            "AvailableSeats": "41",
+            "ArrivalTime": "07:00 AM",
+            "BoardingTimes": [
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": "6",
+                    "Landmark": "Ameerpet,|Jeans Corner",
+                    "Location": "Ameerpet,|Jeans Corner",
+                    "Name": null,
+                    "Time": "1260"
+                },
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": "2224",
+                    "Landmark": "S.R Nagar,S.R Nagar",
+                    "Location": "S.R Nagar,S.R Nagar",
+                    "Name": null,
+                    "Time": "1265"
+                }
+            ],
+            "BusType": "Hi-Tech-NonA/c",
+            "CancellationPolicy": "1:-1:90:0;2:-1:50:0;4:-1:10:0",
+            "DepartureTime": "9:00 PM",
+            "DestinationId": 2445,
+            "Duration": "10:00 hrs",
+            "DroppingTimes": [
+                {
+                    "Address": null,
+                    "ContactNumbers": null,
+                    "ContactPersons": null,
+                    "PointId": null,
+                    "Landmark": "",
+                    "Location": null,
+                    "Name": null,
+                    "Time": null
+                }
+            ],
+            "Fares": "1200",
+            "ServiceTax": "0.00",
+            "OperatorServiceCharge": "0.00",
+            "ConvenienceFee": 0,
+            "AffiliateId": null,
+            "NetFares": "1200",
+            "Id": "6679-0",
+            "Provider": "ASw7iG9082iyI7qZCJasgA==",
+            "PartialCancellationAllowed": "false",
+            "SeatType": 3,
+            "SourceId": 2667,
+            "Travels": "Ashok Travels",
+            "Mticket": "false",
+            "InventoryType": null,
+            "Journeydate": "2016-10-10"
+        }
+    ],
+    "ProvidersCount": 1,
+    "ResponseStatus": 200,
+    "Message": null
+}
